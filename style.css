@@ -69,7 +69,7 @@ section{
     margin-bottom: 1.5rem;
 }
 span{
-    color: var(--main-color);
+    color:white;
 }
 .home-content h1{
     font-size: 6.6rem;
@@ -216,11 +216,10 @@ span{
     
   } 
 .edu-cointainer{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
     align-items: center;
-    flex-wrap: wrap;
-    gap: 3rem;
+    gap: 2.3rem;
     box-shadow: 0 0 2rem var(--main-color);
     padding: .8rem;
    
@@ -229,6 +228,7 @@ span{
     flex : 1 1 1 30rem;
     background: var(--bg-color);
     padding: .5rem;
+    margin: 5px 5px 5px 5px;
     border-radius: 2rem;
     text-align: center;
     border: .5rem solid var(--snd-bg-color);
